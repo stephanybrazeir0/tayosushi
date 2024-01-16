@@ -1,0 +1,117 @@
+.header-bg {
+  background-color: #000000;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.header-menu a {
+  display: inline-block;
+  padding: 10px 0px;
+  color: #ffffff;
+  font-size: 1.125rem;
+  line-height: 1.7;
+  transition: 0.3s;
+}
+
+.header-menu a:hover {
+  color: #a3a3a3;
+}
+
+#btn-mobile {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .header-menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    top: 69px;
+    right: 0px;
+    background-color: #000000;
+    z-index: 9;
+    transition: 0.6s;
+    opacity: 0;
+  }
+  .header-menu a {
+    padding: 16px 0;
+    margin: 0 20px;
+  }
+  nav.ativo .header-menu {
+    opacity: 1;
+    height: calc(100vh - 69px);
+  }
+  #btn-mobile {
+    display: flex;
+    /* font-size: 0.9rem;
+    line-height: 1.2; */
+    line-height: 1.7;
+    font-size: 1.125rem;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    gap: 16px;
+    background: #0E0E0E;
+    color: #ececec;
+  }
+  #hamburguer {
+    width: 20px;
+    border-top: 2px solid;
+    display: block;
+  }
+  #hamburguer::before,
+  #hamburguer::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin-top: 5px;
+    background: currentColor;
+    transition: 0.3s;
+    position: relative;
+  }
+  nav.ativo #hamburguer {
+    border-top-color: transparent;
+  }
+  nav.ativo #hamburguer::before {
+    transform: rotate(135deg);
+  }
+  nav.ativo #hamburguer::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+}
+
+@media(max-width: 400px){
+  .header{
+    gap: 16px;
+  }
+  .header img{
+    max-width: 120px;
+  }
+  #btn-mobile {
+    display: flex;
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+}

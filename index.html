@@ -4,12 +4,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Tayo Sushi</title>
   <meta name="description" content="Explore os sabores do Oriente no Tayo Sushi. ">
 </head>
 
 <body>
-
+  <header class="header-bg">
+    <div class="header">
+      <a href="./">
+        <img src="./img/tayosushi.svg" alt="Tayo Sushi">
+      </a>
+      <nav aria-label="primária">
+        <button aria-label="Abrir Menu" id="btn-mobile" aria-expanded="false" aria-controls="menu" aria-haspopup="true">Menu
+          <span id="hamburguer"></span>
+        </button>
+        <ul class="header-menu" id="menu" role="menu">
+          <li><a href="./">Sobre nós</a></li>
+          <li><a href="./">Cardápio</a></li>
+          <li><a href="./">Reserva</a></li>
+          <li><a href="./">Peça agora</a></li>
+          <li><a href="./">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
