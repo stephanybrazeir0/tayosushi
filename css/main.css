@@ -10,11 +10,6 @@
 
 .main-introducao {
   padding-top: 120px;
-  max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .main-introducao h1 {
@@ -26,6 +21,7 @@
   max-width: 44ch;
   margin-bottom: 32px;
 }
+
 
 @media (max-width: 800px) {
   .main-parallax {
