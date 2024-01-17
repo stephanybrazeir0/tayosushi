@@ -1,0 +1,65 @@
+.cardapio-bg {
+  background: var(--cor-1) url("../img/enfeites//enfeite-palavra.svg") no-repeat
+    center right;
+}
+
+.cardapio {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.cardapio span {
+  margin-bottom: 8px;
+}
+
+.cardapio h1 {
+  margin-bottom: 32px;
+}
+
+.cardapio-total {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0px 40px;
+}
+
+.cardapio-lista img {
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.cardapio-lista h2 {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 800px) {
+  .cardapio-total {
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+  .cardapio-lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: start;
+    gap: 0px 40px;
+  }
+  .cardapio-lista img {
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 32px;
+  }
+}
+@media (max-width: 500px) {
+  .cardapio-total {
+    gap: 32px;
+  }
+  .cardapio-lista {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: start;
+    gap: 0;
+  }
+  .cardapio-lista img {
+    margin-bottom: 16px;
+  }
+}
