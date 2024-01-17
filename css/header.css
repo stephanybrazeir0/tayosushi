@@ -1,5 +1,5 @@
 .header-bg {
-  background-color: #000000;
+  background-color: var(--cor-12);
 }
 
 .header {
@@ -23,14 +23,13 @@
 .header-menu a {
   display: inline-block;
   padding: 10px 0px;
-  color: #ffffff;
-  font-size: 1.125rem;
-  line-height: 1.7;
+  color: var(--cor-0);
+  font: 400 1.125rem/1.7 "Noto Sans", sans-serif;
   transition: 0.3s;
 }
 
 .header-menu a:hover {
-  color: #a3a3a3;
+  color: var(--cor-5);
 }
 
 #btn-mobile {
@@ -45,7 +44,7 @@
     height: 0px;
     top: 91px;
     right: 0px;
-    background-color: #000000;
+    background-color: var(--cor-12);
     z-index: 9;
     transition: 0.6s;
     visibility: hidden;
@@ -61,8 +60,7 @@
   }
   #btn-mobile {
     display: flex;
-    font-size: 1.125rem;
-    line-height: 1.7;
+    font: 400 1.125rem/1.7 "Noto Sans", sans-serif;
     align-items: center;
     justify-content: center;
     padding: 10px 20px;
@@ -70,12 +68,12 @@
     border-radius: 4px;
     cursor: pointer;
     gap: 16px;
-    background: #0e0e0e;
-    color: #ececec;
+    background: var(--cor-11);
+    color: var(--cor-1);
     transition: 0.3s;
   }
   #btn-mobile:hover {
-    background: #606060;
+    background: var(--cor-9);
   }
   #hamburguer {
     width: 20px;

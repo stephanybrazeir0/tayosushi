@@ -1,0 +1,47 @@
+.font-1-xxl {
+  font: 600 3.75rem/1.2 "Noto Sans", sans-serif;
+}
+
+.font-1-xl {
+  font: 600 2rem/1.25 "Noto Sans", sans-serif;
+}
+
+.font-2-l {
+  font: 400 1.5rem/1.33 "Lato", sans-serif;
+}
+
+.font-1-m {
+  font: 600 1.125rem/1.33 "Noto Sans", sans-serif;
+}
+
+.font-1-m-b {
+  font: 400 1.125rem/1.33 "Noto Sans", sans-serif;
+}
+
+.font-2-m,
+.font-2-m-b {
+  font: 400 1.125rem/1.44 "Lato", sans-serif;
+}
+
+.font-2-m-b {
+  letter-spacing: 0.216px;
+}
+
+.font-1-s {
+  font: 400 1rem/1.5 "Noto Sans", sans-serif;
+}
+
+.font-2-s {
+  font: 400 1rem/1.5 "Lato", sans-serif;
+}
+
+@media (max-width: 800px) {
+  .font-1-xxl {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+  .font-2-l {
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
+}

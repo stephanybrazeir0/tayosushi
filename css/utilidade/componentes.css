@@ -1,0 +1,22 @@
+.btn {
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: var(--cor-p6);
+  background: var(--gradiente);
+  margin-bottom: 60px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: var(--cor-p3);
+}
+
+@media (max-width: 800px){
+  .btn {
+    padding: 12px 16px;
+    font-size: 0.9rem;
+    line-height: 1.3;
+  }
+}
