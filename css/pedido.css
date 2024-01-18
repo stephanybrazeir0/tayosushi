@@ -1,0 +1,47 @@
+.pedido-parallax {
+
+  background: url("../img/fundos/sushi-pedidos.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.pedido {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.pedido span {
+  margin-bottom: 8px;
+}
+
+.pedido h1,
+p {
+  margin-bottom: 32px;
+}
+
+.pedido p {
+  max-width: 38ch;
+}
+
+.pedido-btns {
+  display: flex;
+  gap: 32px;
+}
+
+.pedido-btns .secundario:hover {
+  color: #25d366;
+  border-color: #25d366;
+}
+
+@media (max-width: 800px) {
+  .pedido-parallax {
+    background: url("../img/fotos/teste.jpg")  no-repeat top center;
+  }
+  .pedido {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .pedido h1{
+    margin-bottom: 16px;
+  }
+}

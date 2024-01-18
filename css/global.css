@@ -11,7 +11,8 @@ body {
 h1,
 h2,
 p,
-a {
+a,
+span {
   margin: 0;
   padding: 0;
 }

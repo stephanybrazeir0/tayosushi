@@ -31,7 +31,6 @@
 }
 
 .reserva-conteudo img {
-  width: 24px;
   margin-right: 8px;
 }
 
@@ -63,6 +62,10 @@
 }
 
 @media (max-width: 600px) {
+  .reserva-conteudo {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .reserva-conteudo h1 {
     margin-bottom: 16px;
   }
@@ -72,6 +75,11 @@
   .reserva-conteudo li {
     flex-direction: column;
     align-items: start;
+  }
+  .reserva-conteudo img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 4px;
   }
   .reserva-img img {
     max-height: 150px;
