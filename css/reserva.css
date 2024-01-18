@@ -6,7 +6,7 @@
 
 .reserva-conteudo {
   background: var(--cor-11);
-  padding: 120px 40px 120px 40px;
+  padding: 120px 80px 120px 80px;
 }
 .reserva-conteudo h1 {
   margin-bottom: 32px;
@@ -50,8 +50,7 @@
   }
   .reserva-conteudo {
     order: 2;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 20px 60px 20px;
   }
   .reserva-conteudo p {
     max-width: 50ch;
@@ -62,10 +61,6 @@
 }
 
 @media (max-width: 600px) {
-  .reserva-conteudo {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
   .reserva-conteudo h1 {
     margin-bottom: 16px;
   }

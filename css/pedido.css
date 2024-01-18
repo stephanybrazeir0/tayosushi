@@ -1,5 +1,4 @@
 .pedido-parallax {
-
   background: url("../img/fundos/sushi-pedidos.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
@@ -25,7 +24,8 @@ p {
 
 .pedido-btns {
   display: flex;
-  gap: 32px;
+  flex-wrap: wrap;
+  gap: 0px 32px;
 }
 
 .pedido-btns .secundario:hover {
@@ -35,13 +35,17 @@ p {
 
 @media (max-width: 800px) {
   .pedido-parallax {
-    background: url("../img/fotos/teste.jpg")  no-repeat top center;
+    background: url("../img/fundos/sushi-pedidos-menor.jpg") no-repeat top
+      center;
   }
   .pedido {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
-  .pedido h1{
+  .pedido h1 {
     margin-bottom: 16px;
+  }
+  .pedido-btns {
+    gap: 16px;
   }
 }

@@ -11,6 +11,8 @@
   padding: 16px 32px;
   border-radius: 4px;
   text-transform: uppercase;
+  max-width: max-content;
+
 }
 
 .primario {
@@ -28,7 +30,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: max-content;
   gap: 16px;
   color: var(--cor-2);
   border: 1px solid var(--cor-2);
