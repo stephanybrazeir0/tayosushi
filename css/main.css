@@ -22,6 +22,9 @@
   margin-bottom: 32px;
 }
 
+.main-introducao a {
+  margin-bottom: 60px;
+}
 
 @media (max-width: 800px) {
   .main-parallax {

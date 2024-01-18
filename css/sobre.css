@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
-  margin-top: 120px;
+  padding-top: 120px;
   margin-bottom: 120px;
 }
 .sobre img {
@@ -18,10 +18,16 @@
   margin-bottom: 16px;
 }
 
+@media (max-width: 1400px) and (min-width: 1200px) {
+  .sobre-bg {
+    background: url("../img/enfeites/sushi-enfeite1.png") no-repeat top -140px right -50px;
+  }
+}
+
 @media (max-width: 800px) {
   .sobre {
     grid-template-columns: 1fr;
-    margin-top: 60px;
+    padding-top: 60px;
     margin-bottom: 60px;
     gap: 16px 0px;
   }

@@ -24,8 +24,8 @@
         </button>
         <ul class="header-menu" id="menu" role="menu">
           <li><a href="#sobre">Sobre nós</a></li>
-          <li><a href="./">Cardápio</a></li>
-          <li><a href="./">Reserva</a></li>
+          <li><a href="#cardapio">Cardápio</a></li>
+          <li><a href="#reserva">Reserva</a></li>
           <li><a href="./">Peça agora</a></li>
           <li><a href="./">Contato</a></li>
         </ul>
@@ -38,18 +38,20 @@
       <div class="main-introducao container">
         <h1 class="font-1-xxl cor-0">Explore os sabores do Oriente.</h1>
         <p class="font-2-l cor-4">Delicie-se com a frescura dos nossos ingredientes cuidadosamente selecionados, preparados por nossos chefs.</p>
-        <a class="btn font-1-m" href="#">Faça sua reserva</a>
+        <a class="btn primario font-1-m" href="#">Faça sua reserva</a>
       </div>
     </div>
   </main>
 
-  <section aria-labelledby="sobre" class="sobre container">
-    <img src="./img/fotos/restaurante-historia.jpg" alt="Restaurante">
-    <div class="sobre-textos">
-      <span class="font-2-m-b cor-p4">Conheça um pouco da</span>
-      <h1 id="sobre" class="font-1-xxl cor-11">Nossa História</h1>
-      <p class="font-2-l cor-9">Em meio à agitada metrópole de São Paulo, surgiu o Tayo Sushi, um oásis gastronômico que trouxe os encantos da culinária do oriente para a energia pulsante da cidade.</p>
-      <p class="font-2-l cor-9">Comandado pelo apaixonado chef Hiroshi, o restaurante não era apenas um destino para os melhores sushis, mas uma experiência que refletia a diversidade e a paixão de São Paulo.</p>
+  <section aria-labelledby="sobre" class="sobre-bg">
+    <div class="sobre container">
+      <img src="./img/fotos/restaurante-historia.jpg" alt="Restaurante">
+      <div class="sobre-textos">
+        <span class="font-2-m-b cor-p4">Conheça um pouco da</span>
+        <h1 id="sobre" class="font-1-xxl cor-11">Nossa História</h1>
+        <p class="font-2-l cor-9">Em meio à agitada metrópole de São Paulo, surgiu o Tayo Sushi, um oásis gastronômico que trouxe os encantos da culinária do oriente para a energia pulsante da cidade.</p>
+        <p class="font-2-l cor-9">Comandado pelo apaixonado chef Hiroshi, o restaurante não era apenas um destino para os melhores sushis, mas uma experiência que refletia a diversidade e a paixão de São Paulo.</p>
+      </div>
     </div>
   </section>
 
@@ -89,7 +91,28 @@
     </div>
   </article>
 
+  <section aria-labelledby="reserva" class="reserva">
+    <div class="reserva-conteudo ">
+      <span class="font-2-m-b cor-p0">Faça agora</span>
+      <h1 class="font-1-xxl cor-0" id="reserva">Sua reserva</h1>
+      <p class="font-2-l cor-4">Garanta seu lugar para uma experiência gastronômica excepciona e desfrute das melhores variedades de sushis e sashimis frescos em São Paulo.</p>
+      <ul class="font-1-s cor-4">
+        <li><img src="img/icones/clima.svg" alt="Clima">Ambiente climatizado</li>
+        <li><img src="img/icones/garagem.svg" alt="Garagem"> Garagem exclusiva</li>
+        <li><img src="img/icones/bar.svg" alt="Bar">Bebidas artesanais</li>
+        <li><img src="img/icones/wifi.svg" alt="Wifi">Wi-fi gratuito</li>
+      </ul>
+      <a class="btn secundario font-1-m" href="./">Reservar agora <img src="./img/icones/calendario.svg" alt="Calendário"></a>
+    </div>
+    <div class="reserva-img">
+      <picture>
+        <source media="(max-width: 950px)" srcset="./img/fotos/sushi-reserva-menor.jpg">
+        <img src="./img/fotos/sushi-reserva.jpg" alt="Restaurante reserva">
+      </picture>
+    </div>
 
+
+  </section>
 
   <script src="./js/script.js"></script>
 </body>
