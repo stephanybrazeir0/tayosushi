@@ -44,6 +44,13 @@
   object-fit: cover;
 }
 
+@media (max-width: 1400px) and (min-width: 1200px) {
+  .reserva-conteudo {
+    background: var(--cor-11) url("../img/enfeites/sushi-enfeite2.png")
+      no-repeat top -190px left 30px;
+  }
+}
+
 @media (max-width: 950px) {
   .reserva {
     grid-template-columns: 1fr;
