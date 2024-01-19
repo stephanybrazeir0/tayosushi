@@ -4,12 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
   <title>Tayo Sushi</title>
   <meta name="description" content="Explore os sabores do Oriente no Tayo Sushi em São Paulo.">
+
+  <script>document.documentElement.classList.add('js')</script>
 </head>
 
 <body>
@@ -36,9 +40,9 @@
   <main>
     <div class="main-parallax">
       <div class="main-introducao container">
-        <h1 class="font-1-xxl">Explore os sabores do Oriente.</h1>
-        <p class="font-2-l cor-4">Delicie-se com a frescura dos nossos ingredientes cuidadosamente selecionados, preparados por nossos chefs.</p>
-        <a class="btn primario font-1-m" href="#">Faça sua reserva</a>
+        <h1 class="font-1-xxl fadeInLeft" data-anime="200">Explore os sabores do Oriente.</h1>
+        <p class="font-2-l cor-4 fadeInLeft" data-anime="400">Delicie-se com a frescura dos nossos ingredientes cuidadosamente selecionados, preparados por nossos chefs.</p>
+        <a class="btn primario font-1-m fadeInLeft" href="#" data-anime="800">Faça sua reserva</a>
       </div>
     </div>
   </main>
@@ -167,6 +171,7 @@
     </div>
   </footer>
 
+  <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 

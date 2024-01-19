@@ -42,3 +42,8 @@ function cliqueMenu(link) {
 }
 
 links.forEach(cliqueMenu);
+
+//Animação
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}

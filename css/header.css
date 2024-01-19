@@ -7,6 +7,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  gap: 16px;
   padding: 20px 0px;
 }
 
@@ -33,6 +34,12 @@
 
 @media (max-width: 800px) {
   .header-menu {
+    gap: 16px 32px;
+  }
+  .header-menu a {
+    padding: 16px 0px;
+  }
+  .js .header-menu {
     display: block;
     position: absolute;
     width: 100%;
@@ -45,15 +52,15 @@
     visibility: hidden;
     overflow-y: hidden;
   }
-  .header-menu a {
+  .js .header-menu a {
     padding: 16px 0;
     margin: 0 20px;
   }
-  nav.ativo .header-menu {
+  .js nav.ativo .header-menu {
     visibility: visible;
     height: calc(100vh - 91px);
   }
-  #btn-mobile {
+  .js #btn-mobile {
     display: flex;
     font: 400 1.125rem/1.7 "Noto Sans", sans-serif;
     align-items: center;
@@ -67,16 +74,16 @@
     color: var(--cor-1);
     transition: 0.3s;
   }
-  #btn-mobile:hover {
+  .js #btn-mobile:hover {
     background: var(--cor-9);
   }
-  #hamburguer {
+  .js #hamburguer {
     width: 20px;
     border-top: 2px solid;
     display: block;
   }
-  #hamburguer::before,
-  #hamburguer::after {
+  .js #hamburguer::before,
+  .js #hamburguer::after {
     content: "";
     display: block;
     width: 20px;
@@ -86,32 +93,32 @@
     transition: 0.3s;
     position: relative;
   }
-  nav.ativo #hamburguer {
+  .js nav.ativo #hamburguer {
     border-top-color: transparent;
   }
-  nav.ativo #hamburguer::before {
+  .js nav.ativo #hamburguer::before {
     transform: rotate(135deg);
   }
-  nav.ativo #hamburguer::after {
+  .js nav.ativo #hamburguer::after {
     transform: rotate(-135deg);
     top: -7px;
   }
 }
 
 @media (max-width: 400px) {
-  .header {
+  .js .header {
     gap: 12px;
   }
   .header img {
     max-width: 120px;
   }
-  #btn-mobile {
+  .js #btn-mobile {
     padding: 8px 16px;
   }
-  .header-menu {
+  .js .header-menu {
     top: 87px;
   }
-  nav.ativo .header-menu {
+  .js nav.ativo .header-menu {
     height: calc(100vh - 87px);
   }
 }
