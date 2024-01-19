@@ -1,8 +1,8 @@
 const btnMobile = document.querySelector(".header button");
+const nav = document.querySelector(".header nav");
 
 function toggleMenu(event) {
   if (event.type === "touchstart") event.preventDefault();
-  const nav = document.querySelector(".header nav");
   nav.classList.toggle("ativo");
 
   const ativo = nav.classList.contains("ativo");
@@ -17,3 +17,28 @@ function toggleMenu(event) {
 
 btnMobile.addEventListener("click", toggleMenu);
 btnMobile.addEventListener("touchstart", toggleMenu);
+
+// fechar menu ao escolher uma opção
+const links = document.querySelectorAll(".header li a");
+
+function fecharMenu(event) {
+  const clicada = event.currentTarget;
+  if (clicada) {
+    nav.classList.toggle("ativo");
+
+    const ativo = nav.classList.contains("ativo");
+    btnMobile.setAttribute("aria-expanded", ativo);
+
+    if (ativo) {
+      btnMobile.setAttribute("aria-label", "Fechar Menu");
+    } else {
+      btnMobile.setAttribute("aria-label", "Abrir Menu");
+    }
+  }
+}
+
+function cliqueMenu(link) {
+  link.addEventListener("click", fecharMenu);
+}
+
+links.forEach(cliqueMenu);
