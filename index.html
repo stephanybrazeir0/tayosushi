@@ -9,25 +9,25 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans:wght@400;600&display=swap" rel="stylesheet">
   <title>Tayo Sushi</title>
-  <meta name="description" content="Explore os sabores do Oriente no Tayo Sushi. ">
+  <meta name="description" content="Explore os sabores do Oriente no Tayo Sushi em São Paulo.">
 </head>
 
 <body>
   <header class="header-bg">
     <div class="header container">
       <a href="./">
-        <img src="./img/tayosushi.svg" alt="Tayo Sushi">
+        <img src="./img/tayosushi.svg" alt="Tayo Sushi" width="144" height="29">
       </a>
       <nav aria-label="primária">
         <button aria-label="Abrir Menu" id="btn-mobile" aria-expanded="false" aria-controls="menu" aria-haspopup="true">Menu
           <span id="hamburguer"></span>
         </button>
         <ul class="header-menu" id="menu" role="menu">
-          <li><a href="#sobre">Sobre nós</a></li>
-          <li><a href="#cardapio">Cardápio</a></li>
-          <li><a href="#reserva">Reserva</a></li>
-          <li><a href="#pedido">Peça agora</a></li>
-          <li><a href="#contato">Contato</a></li>
+          <li role="menuitem"><a href="#sobre">Sobre nós</a></li>
+          <li role="menuitem"><a href="#cardapio">Cardápio</a></li>
+          <li role="menuitem"><a href="#reserva">Reserva</a></li>
+          <li role="menuitem"><a href="#pedido">Peça agora</a></li>
+          <li role="menuitem"><a href="#contato">Contato</a></li>
         </ul>
       </nav>
     </div>
@@ -36,7 +36,7 @@
   <main>
     <div class="main-parallax">
       <div class="main-introducao container">
-        <h1 class="font-1-xxl cor-0">Explore os sabores do Oriente.</h1>
+        <h1 class="font-1-xxl">Explore os sabores do Oriente.</h1>
         <p class="font-2-l cor-4">Delicie-se com a frescura dos nossos ingredientes cuidadosamente selecionados, preparados por nossos chefs.</p>
         <a class="btn primario font-1-m" href="#">Faça sua reserva</a>
       </div>
@@ -45,7 +45,7 @@
 
   <section aria-labelledby="sobre" class="sobre-bg">
     <div class="sobre container">
-      <img src="./img/fotos/restaurante-historia.jpg" alt="Restaurante">
+      <img src="./img/fotos/restaurante-historia.jpg" alt="Restaurante Tayo Sushi" width="997" height="1102">
       <div class="sobre-textos">
         <span class="font-2-m-b cor-p4">Conheça um pouco da</span>
         <h1 id="sobre" class="font-1-xxl cor-11">Nossa História</h1>
@@ -63,7 +63,7 @@
 
       <div class="cardapio-total">
         <div class="cardapio-lista">
-          <img src="./img/fotos/sushi-combos.jpg" alt="Combos">
+          <img src="./img/fotos/sushi-combos.jpg" alt="Combos" width="470" height="752">
           <div>
             <h2 class="font-1-xl cor-11">Combos</h2>
             <p class="font-2-s cor-9">Explore mais de 10 combos exclusivos, oferecendo uma ampla variedade de deliciosas combinações para atender a todos os gostos.</p>
@@ -71,7 +71,7 @@
         </div>
 
         <div class="cardapio-lista">
-          <img src="./img/fotos/sushi-alacarte.jpg" alt="À La Carte">
+          <img src="./img/fotos/sushi-alacarte.jpg" alt="À La Carte" width="470" height="752">
           <div>
             <h2 class="font-1-xl cor-11">À La Carte</h2>
             <p class="font-2-s cor-9">Descubra mais de 50 variedades de sushis e sashimis frescos, incluindo pratos quentes e tempurás que elevam a experiência gastronômica</p>
@@ -79,7 +79,7 @@
         </div>
 
         <div class="cardapio-lista">
-          <img src="./img/fotos/drinks.jpg" alt="Drinks">
+          <img src="./img/fotos/drinks.jpg" alt="Drinks" width="470" height="752">
           <div>
             <h2 class="font-1-xl cor-11">Drinks</h2>
             <p class="font-2-s cor-9">Desfrute de uma seleção única de drinks artesanais, perfeitamente harmonizados para complementar a sua experiência</p>
@@ -94,21 +94,21 @@
   <section aria-labelledby="reserva" class="reserva">
     <div class="reserva-conteudo ">
       <span class="font-2-m-b cor-p0">Faça agora</span>
-      <h1 class="font-1-xxl cor-0" id="reserva">Sua reserva</h1>
+      <h1 class="font-1-xxl" id="reserva">Sua reserva</h1>
       <p class="font-2-l cor-4">Garanta seu lugar para uma experiência gastronômica excepciona e desfrute das melhores variedades de sushis e sashimis frescos em São Paulo.</p>
       <ul class="font-1-s cor-4">
-        <li><img src="img/icones/clima.svg" alt="Clima">Ambiente climatizado</li>
-        <li><img src="img/icones/garagem.svg" alt="Garagem"> Garagem exclusiva</li>
-        <li><img src="img/icones/bar.svg" alt="Bar">Bebidas artesanais</li>
-        <li><img src="img/icones/wifi.svg" alt="Wifi">Wi-fi gratuito</li>
+        <li><img src="img/icones/clima.svg" alt="Clima" width="32" height="32">Ambiente climatizado</li>
+        <li><img src="img/icones/garagem.svg" alt="Garagem" width="32" height="32">Garagem exclusiva</li>
+        <li><img src="img/icones/bar.svg" alt="Bar" width="32" height="32">Bebidas artesanais</li>
+        <li><img src="img/icones/wifi.svg" alt="Wifi" width="32" height="32">Wi-fi gratuito</li>
       </ul>
-      <a class="btn secundario font-1-m" href="./">Reservar agora <img src="./img/icones/calendario.svg" alt="Calendário"></a>
+      <a class="btn secundario font-1-m" href="./">Reservar agora<img src="./img/icones/calendario.svg" alt="Calendário" width="20" height="21"></a>
     </div>
 
     <div class="reserva-img">
       <picture>
         <source media="(max-width: 950px)" srcset="./img/fotos/sushi-reserva-menor.jpg">
-        <img src="./img/fotos/sushi-reserva.jpg" alt="Restaurante reserva">
+        <img src="./img/fotos/sushi-reserva.jpg" alt="Restaurante reserva" width="1558" height="1422">
       </picture>
     </div>
 
@@ -118,7 +118,7 @@
     <div class="pedido-parallax">
       <div class="pedido container">
         <span class="font-2-m-b cor-p0">Onde você estiver</span>
-        <h1 id="pedido" class="font-1-xxl cor-0">Faça seu pedido</h1>
+        <h1 id="pedido" class="font-1-xxl">Faça seu pedido</h1>
         <p class="font-2-l cor-4">Levamos a experiência Tayo Sushi até a sua porta com nosso serviço de entrega rápido, eficiente e embalagens sustentáveis.</p>
         <div class="pedido-btns">
           <a class="btn primario font-1-m" href="#">Pedir pelo ifood</a>
@@ -132,25 +132,25 @@
     <div class="footer container">
       <div class="footer-conteudo">
         <a class="footer-img" href="./">
-          <img  src="./img/tayosushi.svg" alt="Tayo Sushi">
+          <img src="./img/tayosushi.svg" alt="Tayo Sushi" width="144" height="29">
         </a>
 
         <div class="footer-contato">
-          <h2 class="font-1-xl cor-0">Contato</h2>
+          <h2 class="font-1-xl">Contato</h2>
           <ul class="font-2-m-b cor-5">
             <li><a href="tel:+551199999999">+55 11 9999-9999</a></li>
             <li>Rua Ali do Lado, 125 - Bela Vista </li>
             <li>São Paulo - SP</li>
           </ul>
           <div class="contato-redes">
-            <a href="#"><img src="./img/redes/instagram.svg" alt="Instagram"></a>
-            <a href="#"><img src="./img/redes/facebook.svg" alt="Facebook"></a>
-            <a href="#"><img src="./img/redes/whatsapp.svg" alt="WhatsApp"></a>
+            <a href="#"><img src="./img/redes/instagram.svg" alt="Instagram" width="32" height="32"></a>
+            <a href="#"><img src="./img/redes/facebook.svg" alt="Facebook" width="32" height="32"></a>
+            <a href="#"><img src="./img/redes/whatsapp.svg" alt="WhatsApp" width="32" height="32"></a>
           </div>
         </div>
 
         <div class="footer-informacoes">
-          <h2 class="font-1-xl cor-0">Informações</h2>
+          <h2 class="font-1-xl">Informações</h2>
           <ul class="font-2-m-b cor-5">
             <li><a href="#sobre">Sobre nós</a></li>
             <li><a href="#cardapio">Cardápio</a></li>

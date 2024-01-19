@@ -19,7 +19,6 @@
 .header-menu a {
   display: inline-block;
   padding: 10px 0px;
-  color: var(--cor-0);
   font: 400 1.125rem/1.7 "Noto Sans", sans-serif;
   transition: 0.3s;
 }
