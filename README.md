@@ -6,7 +6,7 @@ Link do deploy: https://stephanybrazeir0.github.io/tayosushi/
 ## 🎉 Sobre o projeto
 Tayo Sushi é um projeto de landing page que visa colocar em prática minhas habilidades em **HTML**, **CSS** e **JavaScript**, apresentando um restaurante de sushi.  
 
-Desenvolvi todo o design no **Figma** e implementei técnicas de desenvolvimento web, além de focar em uma experiência de usuário(UX/UI Design). 
+Desenvolvi todo o design no [Figma](https://www.figma.com/file/OrywTr6k3P75O3gumCTnIp/tayo-sushi?type=design&node-id=0%3A1&mode=design&t=iMfyNuntV4YHWUC4-1) e implementei técnicas de desenvolvimento web, além de focar em uma experiência de usuário(UX/UI Design). 
 
 Site totalmente responsivo.  
 
